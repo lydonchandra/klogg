@@ -96,7 +96,6 @@ AX_APPEND_COMPILE_FLAGS(m4_flatten([
   -Wreorder
   -Wsign-compare
   -Wunused-local-typedefs
-  -Wunused-variable
   -Wvla
 ]), [WARN_CXXFLAGS], [${ax_compiler_flags_test}])
 AS_VAR_APPEND([WARN_CXXFLAGS], " -Werror")

@@ -59,7 +59,6 @@ if(MINGW)
 		message(FATAL_ERROR "Tests will not pass on MinGW if your compiler cannot generate .pdb files ! Please use Clang instead")
 	endif()
 	target_compile_options(sentry_test_unit PRIVATE
-		-Wno-unused-variable
 		-Wno-unused-parameter
 		-Wno-format
 		-Wno-incompatible-pointer-types

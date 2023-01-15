@@ -367,7 +367,6 @@ endif()
 # suppress some errors and warnings for MinGW target
 if(MINGW)
 	target_compile_options(sentry PRIVATE
-		-Wno-unused-variable
 		-Wno-unused-parameter
 		-Wno-format
 		-Wno-incompatible-pointer-types
